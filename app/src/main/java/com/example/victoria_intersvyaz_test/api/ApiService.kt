@@ -5,7 +5,6 @@ import kotlinx.coroutines.flow.Flow
 import retrofit2.http.*
 
 interface ApiService {
-
     @GET("/photos/{id}")
     suspend fun getPhotos(@Path("id") id: Int): Photos
 }

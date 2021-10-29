@@ -21,6 +21,5 @@ class MainActivity : AppCompatActivity() {
         val appBarConfiguration = AppBarConfiguration(setOf(R.id.dataFragment))
 
         binding.toolbar.setupWithNavController(navController, appBarConfiguration)
-
     }
 }

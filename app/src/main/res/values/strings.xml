@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Интерсвязь</string>
+    <string name="load_str">Загрузить еще..</string>
 </resources>
