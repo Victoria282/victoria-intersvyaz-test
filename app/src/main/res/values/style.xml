@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="progressBar">
+        <item name="android:layout_width"> wrap_content </item>
+        <item name="android:layout_height"> wrap_content </item>
+        <item name="android:visibility">gone</item>
+        <item name="backgroundTint">#373737</item>
+    </style>
+    <style name="btn">
+        <item name="fontFamily">@font/nunito_bold</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_width"> match_parent </item>
+    </style>
+    <style name="recycler">
+        <item name="android:layout_width"> match_parent </item>
+        <item name="android:layout_height"> match_parent </item>
+        <item name="android:paddingBottom">60dp</item>
+    </style>
+    <style name="imgView">
+        <item name="android:layout_width"> 80dp </item>
+        <item name="android:layout_height"> 80dp </item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+    <style name="textView">
+        <item name="fontFamily">@font/nunito_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+</resources>

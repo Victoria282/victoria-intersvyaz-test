@@ -1,10 +1,9 @@
 package com.example.victoria_intersvyaz_test.view_model
 
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.victoria_intersvyaz_test.api.ApiHelper
-import com.example.victoria_intersvyaz_test.api.CommentApiState
+import com.example.victoria_intersvyaz_test.utils.CommentApiState
 import com.example.victoria_intersvyaz_test.api.RetrofitBuilder
 import com.example.victoria_intersvyaz_test.model.Photos
 import com.example.victoria_intersvyaz_test.repository.DataRepository
