@@ -65,6 +65,7 @@ class DataFragment: Fragment(R.layout.data_fragment) , PhotoAdapter.ItemClickLis
         addData()
     }
 
+    // подгрузка 10 элементов списка
     private fun addData() {
         while (count < 10) {
             count++
